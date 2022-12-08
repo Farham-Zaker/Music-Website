@@ -1,0 +1,177 @@
+main {
+  margin: 2% 0;
+}
+/* Music part include cover , description e.t.c */
+main .music {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: relative;
+  width: 100%;
+  margin: 0 0 3% 0;
+  background-color: #202020;
+}
+main .music .title {
+  background: #161616d7;
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  position: relative;
+}
+main .music .title a h2 {
+  margin: 0 8%;
+  padding: 4% 5%;
+  color: white;
+  font-size: 14px;
+}
+main .music .title.song-icone::before {
+  content: "\f001";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  top: 21%;
+  padding: 2% 2%;
+  margin: 0 2%;
+  border-radius: 50px;
+  color: rgb(235, 231, 231);
+  background: linear-gradient(to right, rgb(177 0 31) 5%, #740014 62%);
+  position: absolute;
+}
+
+main .music .title.album-icone::before {
+  content: "\f51f";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  top: 21%;
+  padding: 2% 2%;
+  margin: 0 2%;
+  border-radius: 50px;
+  color: rgb(235, 231, 231);
+  background: linear-gradient(to right, rgb(177 0 31) 5%, #740014 62%);
+  position: absolute;
+}
+main .music .title.music-video-icone::before {
+  content: "\f03d";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  top: 21%;
+  padding: 2% 2%;
+  margin: 0 2%;
+  border-radius: 50px;
+  color: rgb(235, 231, 231);
+  background: linear-gradient(to right, rgb(177 0 31) 5%, #740014 62%);
+  position: absolute;
+}
+
+main .img-container {
+  margin: 0 2%;
+}
+main .img-container img {
+  border-radius: 4px 4px 0 0;
+}
+main .music .description {
+  color: rgb(224, 220, 220);
+  margin: 0 2%;
+}
+main .music .description p {
+  font-size: 14px;
+  text-align: center;
+  margin: 2% 0;
+}
+
+main .music .img-container img {
+  width: 83%;
+  margin: 2%;
+}
+main .music .music-player {
+  background: rgb(28 28 28);
+  margin: -2% 0%;
+  padding: 2% 0;
+  width: 80%;
+  border-radius: 0 0 4px 4px;
+}
+main .music .music-player .buttons {
+  width: 20%;
+  margin: 0 0 0 2%;
+}
+main .music .music-player .buttons button {
+  background: none;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 5% 0;
+  flex-grow: 1;
+}
+main .music .music-player .buttons button i {
+  font-size: 190%;
+}
+
+main .music .music-player .control {
+  width: 80%;
+}
+main .music .music-player .control span {
+  margin: 0 2%;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .music .music-player .control .progress.firefox::-moz-range-thumb{
+  background: #a50000;
+  border-radius: 50px;
+  border: 1px solid #a50000;
+  cursor: pointer;
+}
+main .music .foot {
+  width: 90%;
+  margin: 7% 0px 5% 0;
+}
+main .music .more span {
+  color: white;
+}
+main .music .music-player .control .progress {
+  -webkit-appearance: none;
+  height: 10%;
+  width: 60%;
+  outline: none;
+  display: block;
+  background: #323232;
+  border-radius: 500px;
+  direction: ltr;
+}
+main .music .music-player .control .progress.other-browsers::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  background-color: #a50000;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0px;
+  border: none;
+}
+main .music .foot .more{
+  background: linear-gradient(to right, rgb(177 0 31) 5%, #740014 62%);
+  width: 100%;
+  text-align: center;
+  padding: 8% 0%;
+  border-radius: 10px;
+}
+main .music .foot .more a {
+  
+  color: white;
+  
+  
+}
+main .music .foot .date,
+main .music .foot .comment {
+  margin: 0 3%;
+  color: #fff;
+}
+main .music .foot .right{
+  width: 70%;
+  margin:0;
+}
+main .music .foot .left {
+  width: 30%;
+}
+
+

@@ -1,0 +1,121 @@
+main .right{
+  margin: 0 0 5% 0;
+}
+main .right .social-media div{
+  border-radius: 4px;
+  margin: 0 0 3% 0;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+main .right .social-media div .icone{
+  color: #fff;
+  padding: 2% 3% 2% 0;
+  width: 13%;
+  padding: 3% 2% 3% 0;
+}
+main .right .social-media div .description{
+  color: white;
+  text-align: justify;
+  width: 75%;
+  padding: 2% 0 2% 2%;
+}
+main .right .social-media div:hover{
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+main .right .instagram div{
+  background: radial-gradient(circle at 33% 100%, #d69406 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);border-radius: 4px;
+}
+main .right .telegram div{
+  background: #1884b6;
+  border-radius: 4px;
+}
+main .right .youtube div{
+  background: #ff0000b0;
+} 
+main .right .category {
+  background-color: #42425b2c;
+  margin: 0 0 5% 0;
+  border-radius: 4px;
+  padding: 0 0 2% 0;
+}
+main .right .category .title {
+  color: white;
+  background: #42425b;
+  border-radius: 4px 4px 0 0;
+  padding: 5%;
+}
+main .right .category .title::before{
+  content: '\f07b';
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free';
+  margin: 0 0 0 4%;
+}
+main .right .category ul li{
+  margin: 3% 0;
+}
+main .right .category ul li a{
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+  margin: 0 8% 0 0;
+  transition: all 0.3s;
+}
+main .right .category ul li a:hover{
+  color: rgb(204, 200, 200);
+  transition: all 0.3s;
+}
+main .right .archive{
+  background: #42425b2c;
+  padding: 0 0 5% 3%;
+}
+main .right .archive .title {
+  color: white;
+  background: #42425b;
+  border-radius: 4px 4px 0 0;
+  padding: 5%;
+  width: 93%;
+}
+main .right .archive .title::before{
+  content: '\f130';
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free';
+  margin: 0 0 0 4%;
+}
+main .right .buttons-container button {
+  color: white;
+  border: solid 1px rgb(54 56 75);
+  margin: 5% 4%;
+  padding: 3% 6%;
+  border-radius: 55px;
+  background-color: rgb(54 56 75);
+  cursor: pointer;
+  text-align: center;
+  font-size: 11px;
+  transition: all 0.3s;
+}
+main .right .archive ul {
+  height: 530px;
+  overflow-y: scroll;
+}
+main .right .archive ul::-webkit-scrollbar {
+  background: rgb(89, 89, 90);
+  width: 5px;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+main .right .archive ul::-webkit-scrollbar-thumb {
+  background-color: rgb(143, 138, 138);
+  border-radius: 50px;
+}
+
+main .right .archive ul li a {
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  margin: 0 5%;
+  transition: all 0.3s;
+}
+main .right .archive ul li a:hover {
+  color: rgb(204, 200, 200);
+  transition: all 0.3s;
+}

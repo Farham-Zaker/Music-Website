@@ -1,0 +1,47 @@
+/* Changing the icone of mobile menu by clicking*/
+.menu-mobile-icone.active::before {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 42%;
+  left: 5%;
+  transition: all 0.5s;
+  
+}
+.menu-mobile-icone .main-line.active {
+  transform: translateX(120%);
+  background: rgb(49 47 47 / 0%);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s;
+  z-index: 1;
+  
+}
+.menu-mobile-icone.active::after {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 42%;
+  left: 5%;
+  transition: all 0.5s;
+  
+}
+
+
+/* Activing the mobile menu */
+
+header .menu-mobile.avtive{
+  right: 0;
+  transition: all 0.5s;
+}
+/* Changing the border color of button when it is clicked */
+
+main .left div .buttons-container button.change-color-of-border , 
+main .right div .buttons-container button.change-color-of-border{
+  border: solid 1px rgb(165, 172, 221);
+  transition: all 0.3s;
+}
+
+/* Activing and inactiving the best songs */
+main .inactive{
+  display: none;
+}
+
+

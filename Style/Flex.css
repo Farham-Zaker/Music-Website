@@ -1,0 +1,416 @@
+@media screen and (max-width: 576px) {
+  header{
+    position: fixed;
+  }
+  header .logo a img {
+    width: calc(100% + 60px);
+  }
+
+  header .menu-wide {
+    display: none;
+  }
+
+  header > .search-box {
+    display: none;
+  }
+
+  header .menu-mobile .search-box {
+    display: flex;
+  }
+
+  header .menu-mobile-icone {
+    order: 3;
+  }
+
+  header .menu-mobile {
+    display: flex;
+  }
+  section{
+    margin: 15% 0;
+  }
+  main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  main > .center{
+    order: 1;
+  }
+
+  main > .right{
+    order: 2;
+  }
+
+  main > .left{
+    order: 3;
+  }
+}
+@media screen and (min-width: 576px) {
+  header{
+    position: fixed;
+  }
+
+  header .logo a img {
+    width: calc(100% + 60px);
+  }
+
+  header .menu-wide {
+    display: none;
+  }
+
+  header > .search-box {
+    display: none;
+  }
+
+  header .menu-mobile .search-box {
+    display: flex;
+  }
+
+  header .menu-mobile-icone {
+    order: 3;
+  }
+
+  header .menu-mobile {
+    display: flex;
+  }
+
+  section{
+    margin: 13% 0;
+  }
+
+  main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  main > .center{
+    order: 1;
+  }
+
+  main > .right{
+    order: 2;
+  }
+
+  main > .left{
+    order: 3;
+  }
+
+ 
+}
+@media screen and (min-width: 768px) {
+
+  header{
+    position: fixed;
+  }
+
+  header .logo a img {
+    width: 100%;
+  }
+
+  header .menu-wide {
+    display: none;
+  }
+
+  header > .search-box {
+    display: none;
+  }
+
+  header .menu-mobile .search-box {
+    display: flex;
+  }
+
+  section{
+    margin: 11% 0 ;
+  }
+
+  main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  main > .center{
+    order: 1;
+  }
+
+  main > .right{
+    order: 2;
+  }
+
+  main > .left{
+    order: 3;
+    margin: 3% 0;
+  }
+  
+  main .right .social-media{
+    order: 5;
+  }
+}
+@media screen and (min-width: 992px) {
+  header{
+    position: relative;
+  }
+  header .logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  header .menu-wide {
+    display: block;
+  }
+  header .search-box {
+    display: block;
+  }
+  .menu-mobile-icone {
+    display: none;
+  }
+
+  header .menu-mobile {
+    display: none;
+  }
+
+  header .search-box {
+    margin: 0 0 0 12px;
+  }
+
+  section{
+    margin: 0;
+  }
+
+  main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  main > .right{
+    order: 1;
+  }
+
+  main > .center{
+    order: 2;
+  }
+  
+  main > .left{
+    order: 3;
+    margin: 0;
+    
+  }
+  main .right .social-media{
+  order: 0;
+}
+
+}
+@media screen and (min-width: 1200px) {
+  header{
+    display: flex;
+  }
+  header .menu-mobile-icone {
+    display: none;
+  }
+  section{
+    margin: 0;
+  }
+  main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  main > .right{
+    order: 1;
+  }
+
+  main > .center{
+    order: 2;
+  }
+
+  main > .left{
+    order: 3;
+    margin: 0;
+  }
+
+  main .right .social-media{
+    order: 0;
+  }
+}
+
+.grew {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .menu-wide ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .menu-wide ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-wide ul li ul {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .search-box form {
+  display: flex;
+  justify-content: center;
+}
+
+header .search-box .search-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style of mobile menu */
+
+.menu-mobile {
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.menu-mobile .search-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-mobile .ithems > ul {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.menu-mobile .ithems > ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu-mobile .ithems > ul ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+header .menu-mobile .social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu-mobile .social-media button a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Slider */
+section .ithem .names{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+main .music {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+main .music .img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .music .music-player {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+}
+main .music .music-player .buttons {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+main .music-player .buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .music .music-player .control {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .music .description{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+main .music .foot{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+main .music .foot .right{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+main .music .foot .left{
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+main .music .foot .left .more{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .left .buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .left{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+main .right .social-media a div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .right  .buttons-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+

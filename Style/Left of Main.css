@@ -1,0 +1,79 @@
+main .left .side-bar {
+  background-color: rgb(39, 39, 39);
+  border-radius: 4px;
+  padding: 0 0 2% 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin: 0 0 4% 0;
+}
+
+main .side-bar .title {
+  color: #fff;
+  font-size: 18px;
+  text-align: right;
+  padding: 4% 3%;
+  margin: 0 3%;
+}
+
+main .best-songs .buttons-container button {
+  color: white;
+  background-color: rgb(58, 61, 85);
+  margin: 5% 4%;
+  padding: 3% 6%;
+  border-radius: 55px;
+  border: solid 1px rgb(58, 61, 85);
+  cursor: pointer;
+  text-align: center;
+  font-size: 11px;
+  transition: all 0.3s;
+}
+
+main .best-songs .buttons-container button:hover {
+  background: #42425b;
+  transition: all 0.3s;
+}
+
+main .side-bar ul li {
+  margin: 1.5% 2.2%;
+  position: relative;
+}
+
+main .side-bar ul li a {
+  color: #d1d1d1;
+  font-size: 12px;
+  margin: 0 7%;
+  transition: all 0.2s;
+}
+
+main .side-bar li a::before {
+  content: " ";
+  position: absolute;
+  background-color: rgb(240, 237, 237);
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  top: 39%;
+  right: 0%;
+  margin: 0 0.5em;
+}
+
+main .left .side-bar ul li a:hover {
+  color: white;
+}
+
+/* Customizing the color of the bottom of the title */
+main .best-songs .title {
+  border-bottom: 3px solid #b50000;
+}
+
+main .new-songs .title {
+  border-bottom: 3px solid #001799;
+}
+
+main .comming-soon .title {
+  border-bottom: 3px solid #690099;
+}
+
+main .madahi .title {
+  border-bottom: 3px solid rgb(17, 11, 11);
+}
+

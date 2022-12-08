@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  background: rgb(29, 29, 29);
+  border-top: 2px solid rgb(179, 176, 176);
+  padding: 0 0 1% 0;
+  position: relative;
+  bottom: -28px;
+}
+
+footer p {
+  color: #fff;
+  padding: 1% 0;
+  margin: 0 2%;
+}
+
+footer p a {
+  color: #b50000;
+}
+
+footer span {
+  color: #fff;
+  padding: 1% 0;
+  margin: 0 2%;
+}

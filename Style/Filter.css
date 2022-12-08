@@ -1,0 +1,11 @@
+.filter{
+    border: 1px solid red;
+    position: absolute;
+    top: 40%;
+    
+    z-index: 7;
+}
+.filter header{
+    background: #68217A;
+    color: #ffff;
+}
